@@ -47,7 +47,7 @@ export const getStaticProps = async (context) => {
     props: {
       gallery,
     },
-    revalidate: 60,
+    revalidate: 10,
   }
 }
 export default gallery

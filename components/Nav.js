@@ -27,11 +27,11 @@ export default function Nav() {
   })
 
   return (
-    <Disclosure as="nav" className="border-b border-gray-200 bg-white">
+    <Disclosure as="nav" className="border-b border-gray-200 bg-gray-200">
       {({ open }) => (
         <>
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-            <div className="flex h-16 justify-between">
+            <div className="flex h-16 justify-center">
               <div className="flex">
                 <div className="flex flex-shrink-0 items-center">
                   Graham New Media
