@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Image from 'next/image'
 import { useContext, useState, Fragment } from 'react'
 import { CartContext } from '../context/shopContext'
 import MiniCart from './MiniCart'
@@ -31,20 +32,15 @@ export default function Nav() {
       {({ open }) => (
         <>
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-            <div className="flex h-16 justify-center">
+            <div className="justify-left flex h-24">
               <div className="flex">
                 <div className="flex flex-shrink-0 items-center">
-                  Graham New Media
-                  {/* <img
-                    className="block h-8 w-auto lg:hidden"
-                    src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
-                    alt="Workflow"
+                  <Image
+                    src="/logo.png"
+                    alt="Graham New Media Logo"
+                    width="100"
+                    height="100"
                   />
-                  <img
-                    className="hidden h-8 w-auto lg:block"
-                    src="https://tailwindui.com/img/logos/workflow-logo-indigo-600-mark-gray-800-text.svg"
-                    alt="Workflow"
-                  /> */}
                 </div>
                 <div className="hidden sm:-my-px sm:ml-6 sm:flex sm:space-x-8">
                   {navigation.map((item, index) => (
