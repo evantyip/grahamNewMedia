@@ -4,7 +4,11 @@ module.exports = {
     './components/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'landing-page': "url('../public/landingPage.jpg')",
+      },
+    },
   },
   plugins: [require('@tailwindcss/aspect-ratio')],
 }
