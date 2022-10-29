@@ -11,8 +11,7 @@ const Index = (props: Props) => {
         <p className="text-7xl">Stills</p>
       </div>
       <div className="my-10 flex flex-row justify-evenly">
-        {/* TODO UPDATE LINKS LATER */}
-        <Link href="/stills/gallery">
+        <Link href="/stills/landscape">
           <div className="Image relative my-auto ">
             <Image
               className="absolute"
@@ -27,7 +26,7 @@ const Index = (props: Props) => {
           </div>
         </Link>
 
-        <Link href="/stills/gallery">
+        <Link href="/stills/music">
           <div className="Image relative my-auto">
             <Image
               className="absolute"
@@ -44,7 +43,7 @@ const Index = (props: Props) => {
       </div>
 
       <div className="my-10 flex flex-row justify-evenly">
-        <Link href="stills/gallery">
+        <Link href="stills/adventure">
           <div className="Image relative my-auto ">
             <Image
               className="absolute"
@@ -59,7 +58,7 @@ const Index = (props: Props) => {
           </div>
         </Link>
 
-        <Link href="/stills/gallery">
+        <Link href="/stills/commercial">
           <div className="Image relative my-auto">
             <Image
               className="absolute"
