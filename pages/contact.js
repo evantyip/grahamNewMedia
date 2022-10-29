@@ -12,61 +12,23 @@ const contact = () => {
             <div className="mt-8 grid grid-cols-1 gap-12 sm:grid-cols-2 sm:gap-x-8 sm:gap-y-12 lg:col-span-2 lg:mt-0">
               <div>
                 <h3 className="text-lg font-medium leading-6 text-gray-900">
-                  Collaborate
+                  Email
                 </h3>
                 <dl className="mt-2 text-base text-gray-500">
                   <div>
                     <dt className="sr-only">Email</dt>
-                    <dd>support@example.com</dd>
-                  </div>
-                  <div className="mt-1">
-                    <dt className="sr-only">Phone number</dt>
-                    <dd>+1 (555) 123-4567</dd>
+                    <dd>grahamnewmedia@gmail.com</dd>
                   </div>
                 </dl>
               </div>
               <div>
                 <h3 className="text-lg font-medium leading-6 text-gray-900">
-                  Press
+                  Number
                 </h3>
                 <dl className="mt-2 text-base text-gray-500">
-                  <div>
-                    <dt className="sr-only">Email</dt>
-                    <dd>support@example.com</dd>
-                  </div>
                   <div className="mt-1">
                     <dt className="sr-only">Phone number</dt>
-                    <dd>+1 (555) 123-4567</dd>
-                  </div>
-                </dl>
-              </div>
-              <div>
-                <h3 className="text-lg font-medium leading-6 text-gray-900">
-                  Join our team
-                </h3>
-                <dl className="mt-2 text-base text-gray-500">
-                  <div>
-                    <dt className="sr-only">Email</dt>
-                    <dd>support@example.com</dd>
-                  </div>
-                  <div className="mt-1">
-                    <dt className="sr-only">Phone number</dt>
-                    <dd>+1 (555) 123-4567</dd>
-                  </div>
-                </dl>
-              </div>
-              <div>
-                <h3 className="text-lg font-medium leading-6 text-gray-900">
-                  Say hello
-                </h3>
-                <dl className="mt-2 text-base text-gray-500">
-                  <div>
-                    <dt className="sr-only">Email</dt>
-                    <dd>support@example.com</dd>
-                  </div>
-                  <div className="mt-1">
-                    <dt className="sr-only">Phone number</dt>
-                    <dd>+1 (555) 123-4567</dd>
+                    <dd>(858) 703-7855</dd>
                   </div>
                 </dl>
               </div>
