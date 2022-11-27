@@ -5,7 +5,11 @@ module.exports = {
     SHOPIFY_STOREFRONT_ACCESSTOKEN: process.env.SHOPIFY_STOREFRONT_ACCESSTOKEN,
   },
   images: {
-    domains: ['cdn.shopify.com', 'images.ctfassets.net'],
+    domains: [
+      'cdn.shopify.com',
+      'images.ctfassets.net',
+      'downloads.ctfassets.net',
+    ],
   },
   reactStrictMode: true,
 }

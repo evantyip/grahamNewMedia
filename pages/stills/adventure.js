@@ -23,6 +23,7 @@ export const getStaticProps = async () => {
     props: {
       gallery,
     },
+    revalidate: 3600,
   }
 }
 export default adventure
