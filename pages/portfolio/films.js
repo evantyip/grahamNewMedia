@@ -37,7 +37,7 @@ export const getStaticProps = async (context) => {
     props: {
       projects,
     },
-    revalidate: 3600,
+    revalidate: 900,
   }
 }
 export default projects
