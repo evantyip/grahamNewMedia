@@ -48,7 +48,6 @@ export default Prints
 
 export async function getStaticProps() {
   const products: product[] = await getProductsInCollection()
-  console.log('home page products', products)
 
   return {
     props: { products }, // will be passed to the page component as props

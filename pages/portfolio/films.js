@@ -3,7 +3,6 @@ import { contentfulClient } from '../../utility/contentful'
 
 const projects = ({ projects }) => {
   // TODO Refactor to tsx
-  console.log(projects)
   return (
     <div className="flex content-center justify-center">
       <div className="m-auto">
@@ -11,6 +10,7 @@ const projects = ({ projects }) => {
         {projects.map((proj) => {
           return (
             <iframe
+              key={proj.link}
               className="my-5"
               width={1280}
               height={720}
