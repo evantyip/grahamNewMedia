@@ -1,15 +1,15 @@
 import React from 'react'
-import { contentfulClient } from '../../utility/contentful'
-import Gallery from '../../components/Gallery'
+import { contentfulClient } from '../../../utility/contentful'
+import Gallery from '../../../components/Gallery'
 
-const adventure = ({ gallery }) => {
+const commercial = ({ gallery }) => {
   return <Gallery gallery={gallery} />
 }
 
 export const getStaticProps = async () => {
   const content = await contentfulClient.getEntries({
     content_type: 'galleryPicture',
-    'fields.type': 'Adventure',
+    'fields.type': 'Commercial',
   })
   const gallery = content.items.map((el) => {
     const picFields = el.fields.picture.fields
@@ -26,4 +26,4 @@ export const getStaticProps = async () => {
     revalidate: 900,
   }
 }
-export default adventure
+export default commercial

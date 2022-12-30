@@ -26,7 +26,7 @@ const Index = (props: Props) => {
           </div>
         </Link>
 
-        <Link href="/stills">
+        <Link href="/portfolio/stills">
           <div className="Image relative my-auto">
             <Image
               className="absolute"
