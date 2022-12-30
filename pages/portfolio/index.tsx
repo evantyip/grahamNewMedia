@@ -42,8 +42,7 @@ const Index = (props: Props) => {
         </Link>
       </div>
       <div className="my-10 flex flex-row justify-center">
-        {/* TODO UPDATE LINK */}
-        <Link href="/portfolio">
+        <Link href="/portfolio/graphics">
           <div className="Image relative mx-auto">
             <Image
               className="absolute"
