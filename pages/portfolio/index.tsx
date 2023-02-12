@@ -42,17 +42,17 @@ const Index = (props: Props) => {
         </Link>
       </div>
       <div className="my-10 flex flex-row justify-center">
-        <Link href="/portfolio/graphics">
+        <Link href="/portfolio/drone">
           <div className="Image relative mx-auto">
             <Image
               className="absolute"
-              src="/portfolio/portfolioGraphics.jpg"
-              alt="Graphics picture "
+              src="/portfolio/portfolioDrone.jpg"
+              alt="Overhead drone picture"
               width="512"
               height="384"
             />
             <p className="absolute inset-0 z-10 flex items-center justify-center font-serif text-6xl text-white hover:cursor-pointer">
-              Graphics
+              Drone
             </p>
           </div>
         </Link>
